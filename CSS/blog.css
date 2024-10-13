@@ -1,0 +1,52 @@
+.navbar li {
+display: inline-block;
+padding-top: 10%; margin-left: 10%;
+}
+
+.navbar a {
+    font-size:20px;
+    text-decoration: none; /*링크의 밑줄 제거*/
+    font-style: oblique;
+    font-weight: bold;
+    color: inherit /*링크의 색상 제거*/
+}
+
+.메인{
+   width: 100%;
+   height: 200px;
+   background-color: rgb(82, 233, 182);
+   
+}
+
+.컨테이너{
+    width:800px;
+    margin-left: auto; margin-right:auto;
+
+}
+
+.img{
+    
+    width: 100px;
+    margin-left: 30%; padding-top:50px;
+    float:left;
+    
+   
+    
+}
+
+.name{
+ float:left;
+ 
+ padding-top: 70px; margin-left: 20px;
+
+
+}
+
+.navbar{
+    float:left;
+    clear:both;
+    background-color: rgb(80, 150, 150);
+    width: 760px;
+    height: 500px;
+    margin-top: 0%;
+}

@@ -1,0 +1,45 @@
+.container{
+    width: 800px;
+    margin-left: auto; margin-right: auto;
+}
+
+.content{
+    width: 70% ;
+    height: 200px;
+    background-color: gray;
+    float: left;
+}
+
+.image{
+    width: 30%;
+    height: 200px;
+    background-color: darkgray;
+    float: left;
+}
+
+.id{
+   
+    float: left;
+}
+
+.story{
+    width: 70%;
+    height: 200px;
+    background-color: rgb(211, 190, 158);
+    clear:both
+}
+
+.profile{
+    width: 50px;
+    float: left;
+}
+
+.pil{
+    float:left;
+    clear:both
+}
+
+.RABBIT{
+    display:block;
+    margin-left: auto; margin-right: auto
+}

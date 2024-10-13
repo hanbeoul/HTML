@@ -1,0 +1,40 @@
+.container{
+    width: 800px;
+    margin-left: auto; margin-right: auto;
+}
+
+.left-box{
+    width: 70%;
+    height: 200px;
+    float: left;
+    background-color: antiquewhite;
+}
+
+.right-box{
+    width: 30%;
+    height: 200px;
+    float: left;
+    background-color:burlywood;
+   
+    
+}
+
+.img{
+    width:50px;
+    float:left;
+}
+
+.id{
+    float: left;
+}
+
+.설명{
+    float:left;
+    clear:both;
+    
+}
+
+.RABBIT{
+    display: block;
+    margin-left: auto; margin-right: auto;
+}

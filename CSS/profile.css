@@ -1,0 +1,29 @@
+.img{
+    width: 20%; 
+    display: block;
+    margin-left: auto; margin-right: auto
+}
+
+.name{
+      text-align: center; 
+      font-family:'TT투게더'; 
+      color: cornflowerblue
+}
+
+.job{
+    color: midnightblue;
+    text-align: center
+}
+
+.box{
+    width: 200px;
+    background-color: #5684c0;
+    padding: 30px;
+    border-radius: 5px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 10px;
+    color: #d6e9f8;
+    box-shadow: 5px 5px 5px #52719d
+}

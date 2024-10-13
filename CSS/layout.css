@@ -1,0 +1,33 @@
+.container {
+    width: 800px;
+}
+
+.header {
+    width: 100%;
+    height: 120px;
+    background:aquamarine;
+}
+
+.left-menu {
+    width: 20%;
+    height: 400px;
+    background: #bbb8dd;
+    /* float: left;  ctr+? = 주석처리 (이 코드는 해석하지 말아달라는 뜻)*/ 
+    display: inline-block;
+}
+
+.right-menu {
+    width: 80%;
+    height: 400px;
+    background-color: #80abf2;
+    /* float: left; */
+    display: inline-block;
+    vertical-align: top;
+}
+
+.footer {
+    width: 100%;
+    height: 100px;
+    background-color: gray;
+    clear: both;
+}
