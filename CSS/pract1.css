@@ -1,10 +1,12 @@
 .컨테이너{
     width: 800px;
+    height: 200px;
     margin-left: auto; margin-right: auto;
+    background-color: royalblue;
 }
 
 .left-box{
-    width: 80%;
+    width: 70%;
     height: 200px;
     background-color: rgb(112, 157, 187);
     float: left;
@@ -34,14 +36,11 @@
 }
 
 .right-box{
-    width: 200px;
+    width: 30%;
     height: 200px;
     background-image: url(../img/band\ aid\ 앨범커버.jpg);
     background-size :cover;
-    float:right;
-    margin-left: auto; margin-right: auto; 
-    position: absolute; left:530px
+    float:left;
     
-
-
+    
 }
