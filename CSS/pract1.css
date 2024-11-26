@@ -1,0 +1,47 @@
+.컨테이너{
+    width: 800px;
+    margin-left: auto; margin-right: auto;
+}
+
+.left-box{
+    width: 80%;
+    height: 200px;
+    background-color: rgb(112, 157, 187);
+    float: left;
+    
+}
+
+.img{
+    margin-top: 10px;
+    margin-left:15px;
+    width:50px;
+    height:50px;
+    border-radius: 70%;
+    overflow: hidden;
+    float: left;
+}
+
+.name{
+    float: left;
+  
+}
+
+.설명{
+    float: left;
+    clear: both;
+    margin-top : 15px
+
+}
+
+.right-box{
+    width: 200px;
+    height: 200px;
+    background-image: url(../img/band\ aid\ 앨범커버.jpg);
+    background-size :cover;
+    float:right;
+    margin-left: auto; margin-right: auto; 
+    position: absolute; left:530px
+    
+
+
+}
