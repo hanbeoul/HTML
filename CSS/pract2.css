@@ -19,7 +19,8 @@
 }
 
 .buttons {
-    margin-left :80px; margin-top: -20px;
+    position: absolute;
+    left:80px;
     
 }
 
@@ -52,4 +53,17 @@
 .button2:hover{
     background-color: rgb(138, 134, 129);
     transition: 0.8s;
+}
+
+.설명box{
+    color: rgb(255, 255, 255);
+    background-color: rgb(156, 146, 146);
+    opacity: 70%;
+    text-align: center;
+    width: 100%;
+    height:150px;
+    padding: 1px;
+    position: relative;
+    top: -20px; 
+    box-sizing:border-box;  /* box-sizing 을 보더박스로 설정하면 width 설정에 padding과 border가 모두 포함되어 보이는 컨텐츠 자체의 크기를 width로 설정한 값으로 보임
 }
