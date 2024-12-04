@@ -65,5 +65,5 @@
     padding: 1px;
     position: relative;
     top: -20px; 
-    box-sizing:border-box;  /* box-sizing 을 보더박스로 설정하면 width 설정에 padding과 border가 모두 포함되어 보이는 컨텐츠 자체의 크기를 width로 설정한 값으로 보임
+    box-sizing:border-box;  /* box-sizing 을 보더박스로 설정하면 width 설정에 padding과 border가 모두 포함되어 보이는 컨텐츠 자체의 크기를 width로 설정한 값으로 보임*/
 }
