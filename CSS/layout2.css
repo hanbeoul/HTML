@@ -1,3 +1,9 @@
+div,input,textarea {
+    box-sizing: border-box; /*모든 div 박스, INPUT박스, TEXTAREA 에 박스 사이징 보더 하기*/
+}
+
+
+
 .main-background{
     width: 100%;
     height: 500px;
@@ -65,3 +71,82 @@
     margin-top: 120px;
     color: rgb(85, 84, 84)
 }
+
+.sub-background{
+    background-color: gray;
+    width:100%;
+    height: 800px;
+    margin-top:200px
+    
+}
+
+.form-white{
+    background-color:rgb(255, 255, 255);
+    width:60%;
+    position: absolute;
+    left:0; right:0; margin-left: auto; margin-right: auto; margin-top: 100px;
+    padding:30px;  height:600px;
+    max-width: 600px;
+    
+}
+
+.first-div{
+    width:100%;
+    padding:8px
+}
+.first-input{
+    border-radius: 4px;
+    padding:10px;
+    font-size:15px;
+    border:1px solid gray;
+    width: 90%;
+   
+}
+
+.second-div{
+    width:50%;
+    float:left;  
+    padding:10px 
+}
+
+.second-input{
+    border-radius: 4px;
+    padding:10px;
+    font-size:15px;
+    border:1px solid gray;
+    width:80%;
+    
+}
+
+
+.third-div{
+    width:100%;
+    padding:8px
+}
+
+.third{
+    border-radius: 4px; 
+    font-size:15px;
+    border:1px solid gray;
+    width:90%;
+    height:150px;
+    
+}
+
+.yellow-button{
+    background-color: rgb(245, 192, 45);
+    padding:10px;
+    border-radius: 4px;
+    border:none;
+    color:white;
+    position: absolute;
+    margin-left:193px; margin-top:-10px
+    
+}
+
+.yellow-button:hover{
+    background-color: rgb(231, 171, 5);
+    transition: 0.8s;
+}
+
+
